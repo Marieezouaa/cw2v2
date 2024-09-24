@@ -1,10 +1,10 @@
 import 'package:cw2v2/models/recipes_list.dart';
 
-const questions = [
+const recipes = [
   RecipesList(
     'Easy pancakes',
     [
-      'STEPS',
+      'assets/images/food1.png',
       'Put 100g plain flour, 2 large eggs,300ml milk, 1 tbsp sunflower or vegetable oil and a pinch of salt into a bowl or large jug, then whisk to a smooth batter. This should be similar in consistency to single cream.',
       'Set aside for 30 mins to rest if you have time, or start cooking straight away.',
       'Set a medium frying pan or crêpe pan over a medium heat and carefully wipe it with some oiled kitchen paper.',
@@ -15,7 +15,7 @@ const questions = [
   RecipesList(
     'Banana bread',
     [
-      'STEPS',
+      'assets/images/food2.png',
       'Heat oven to 180C/160C fan/gas 4.',
       'Butter a 2lb loaf tin and line the base and sides with baking parchment.',
       'Cream 140g softened butter and 140g caster sugar until light and fluffy, then slowly add 2 beaten large eggs with a little of the 140g flour.',
@@ -30,7 +30,7 @@ const questions = [
   RecipesList(
     'Easy Creamy Chicken Ramen',
     [
-      'STEPS',
+      'assets/images/food3.png',
       'Melt butter in a heavy skillet over medium heat. Add minced garlic and cook, stirring, until fragrant, about 30 seconds. Add chicken broth, cream, and ramen noodles. Cook, stirring occasionally, until noodles soften, about 3 minutes.',
       'Add soy sauce and chopped cooked chicken. Allow to get hot.',
       'Serve garnished with everything bagel seasoning if desired',
@@ -39,7 +39,7 @@ const questions = [
   RecipesList(
     'Shrimp Scampi with Pasta',
     [
-      'STEPS',
+      'assets/images/food4.png',
       'Bring a large pot of salted water to a boil; cook linguine in boiling water until nearly tender, 6 to 8 minutes. Drain.',
       'Melt 2 tablespoons butter with 2 tablespoons olive oil in a large skillet over medium heat.',
       'Cook and stir shallots, garlic, and red pepper flakes in the hot butter and oil until shallots are translucent, 3 to 4 minutes.',
@@ -53,7 +53,7 @@ const questions = [
   RecipesList(
     'Vegan Sweet Potato Chickpea Curry',
     [
-      'STEPS',
+      'assets/images/food5.png',
       'Heat oil in a skillet over medium heat. Cook onion, garlic, and ginger in hot oil until softened, about 5 minutes. Add chickpeas, tomatoes, coconut milk, and sweet potato. Bring to a boil, reduce heat to low, and simmer until tender, about 15 minutes.',
       'Season with garam masala, cumin, turmeric, salt, and chile flakes. Add spinach right before serving.',
     ],

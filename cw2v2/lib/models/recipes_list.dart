@@ -1,16 +1,16 @@
 class RecipesList {
-  const RecipesList(this.ChosenRecipe, this.steps);
+  const RecipesList(this.chosenRecipe, this.steps);
 
-  final String ChosenRecipe;
+  final String chosenRecipe;
   final List<String> steps;
 
+  String getImagePath() {
+    return steps[0]; 
+  }
+
   List<String> getSteps() {
-    final RecipeSteps = List.of(steps);
-    return RecipeSteps;
-
-    /*.shuffle shuffles the answer choices, but it alters the original list
-    To prevent the original list from being altered, a copy of this list is created
-    "shuffledList" the copy is then shuffled shuffledList.shuffle() and retured*/
-
+    final recipeSteps = List.of(steps);
+    recipeSteps.removeAt(0); 
+    return recipeSteps;
   }
 }
